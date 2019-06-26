@@ -1,12 +1,10 @@
 public class TicTacToe {
     public static void main(String[] args) {
-        WelcomeMenu theMenu = new WelcomeMenu();
-
-        System.out.println(theMenu.text);
+        WelcomeMenu menu = new WelcomeMenu();
+        
+        System.out.println(menu.getText());
     }
 
-    public class WelcomeMenu {
-        String text = "Welcome to Java Tic-Tac-Toe!";
-    }
+    
 
 }
