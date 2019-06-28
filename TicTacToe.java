@@ -4,6 +4,10 @@ public class TicTacToe {
         Score score = new Score();
         
         System.out.println(menu.getText());
+
+        String userInput = ConsoleReader.readConsole();
+
+        System.out.println("User input: " + userInput);
     }
 
     
