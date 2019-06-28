@@ -10,6 +10,22 @@ public class TicTacToe {
         System.out.println("User input: " + userInput);
     }
 
+    public void turnLoop() {
+        // print board
+        
+        // ask for user input
+
+        // check board and add move
+
+        // check for win conditions
+
+        // AI turn
+
+        // check for win conditions
+
+        // repeat
+    }
+
     
 
 }
