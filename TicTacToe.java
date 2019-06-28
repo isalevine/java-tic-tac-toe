@@ -5,14 +5,16 @@ public class TicTacToe {
         
         System.out.println(menu.getText());
 
-        String userInput = ConsoleReader.readConsole();
+        turnLoop(board);
 
+        String userInput = ConsoleReader.readConsole();
         System.out.println("User input: " + userInput);
     }
 
-    public void turnLoop() {
+    public static void turnLoop(Board board) {
         // print board
-        
+        board.printBoard();
+
         // ask for user input
 
         // check board and add move
